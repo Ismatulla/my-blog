@@ -1,1 +1,1 @@
-export const baseUrl = 'https://vercel.com/ismatulla/my-blog'
+export const baseUrl = 'http://localhost:3000'
