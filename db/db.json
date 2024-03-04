@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "img": "https://media.istockphoto.com/id/1476170969/photo/portrait-of-young-man-ready-for-job-business-concept.webp?b=1&s=170667a&w=0&k=20&c=FycdXoKn5StpYCKJ7PdkyJo9G5wfNgmSLBWk3dI35Zw=",
+      "avatar": "https://media.istockphoto.com/id/1442519925/photo/futuristic-office-remote-meeting-black-businesswoman-accepts-online-conference-call-from.webp?b=1&s=170667a&w=0&k=20&c=4peKn9afCjDF40LtyevxYiMBFIVmmScmC1SC7NTcNjY=",
+      "name": "bobby",
+      "surename": "Green",
+      "title": "software engineer",
+      "description": "Artificial intelligence (AI) is the intelligence of machines or software, as opposed to the intelligence of other living beings, primarily of humans. It is a field of study in computer science that develops and studies intelligent machines. Such machines may be called AIs.jiji",
+      "id": "3431"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c880",
+      "text": "this info is too much"
+    },
+    {
+      "id": "0e1e",
+      "text": "commented"
+    }
+  ],
+  "profile": {
+    "img": "https://images.unsplash.com/photo-1682685797406-97f364419b4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+    "avatar": "https://images.unsplash.com/photo-1682685797406-97f364419b4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8",
+    "firstname": "name",
+    "lastname": "ltname",
+    "title": "topic",
+    "description": "profile",
+    "name": "name",
+    "surename": "ltname"
+  }
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>contact</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <img src="../assets/logo.svg" class="nav-img" alt="">
+        <ul>
+          <a href="../index.html">
+            <li>Home</li>
+          </a>
+          <a href="../blogpage/blog.html">
+            <li>Blog</li>
+          </a>
+
+          <a href="../pages/pages.html">
+            <li>Pages</li>
+          </a>
+          <a href="#">
+            <li>Create Blog</li>
+          </a>
+        </ul>
+        <div class="switchbtn_container">
+          <div class="switchbtn"><img src="../assets/toggleicon.svg" alt=""></div>
+        </div>
+      </nav>
+    </header>
+    <div class="contact_title">
+      <label for="category">Create</label>
+      <select class="select_dropdown" id="category" name="category">
+        <option value="Blog">Blog</option>
+        <option value="Profile">Profile</option>
+      </select>
+    </div>
+    <form class="message_box ">
+      <input type="text" placeholder="enter avatar url" required class="bg_img">
+      <input type="text" placeholder="profile img" required class="prof_img">
+      <input type="text" placeholder="first name" required class="input_firstname">
+      <input type="text" placeholder="last name" required class="input_lastname">
+      <input type="text" placeholder="topic title" required class="input_title">
+      <textarea class="message_area input_description" cols="30" rows="10" placeholder="what is your topic about"
+        required></textarea>
+      <button type="submit" class="update_single_btn">Submit</button>
+    </form>
+  </div>
+  <footer class="footer">
+    <div class="upper_footer">
+      <ul>
+        <li>
+          <h1>About</h1>
+          <p> Lorem ipsum dolor sit amet, <br>
+            consectetur adipiscing elit, <br> sed do
+            eiusmod tempor incididunt <br> ut labore et dolore
+            magna aliqua. <br> Ut enim ad minim veniam</p>
+        </li>
+        <li> <span>Email: </span>mail@gmail.com</li>
+        <li><span>Phone: </span>123445667778</li>
+      </ul>
+      <ul>
+        <li>
+          <h1>Quick Link</h1>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <ul>
+        <li>
+          <h1>Category</h1>
+        </li>
+        <li>Technology</li>
+        <li>Travel</li>
+        <li>Business</li>
+        <li>Economy</li>
+      </ul>
+    </div>
+    <div class="below_footer">
+      <div>
+        <div class="below_footer_logo">
+          <img src="../assets/footerlogo.svg" alt="footer logo">
+          <div>
+            <p>Meta <span>Blog</span></p>
+            <p>© JS Template 2023. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+      <ul class="below_footer_ul">
+        <li>Terms of Use</li>
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+      </ul>
+    </div>
+  </footer>
+  <!-- end of footer -->
+  <script src="./contact.js" type="module"></script>
+</body>
+
+</html>

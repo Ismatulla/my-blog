@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://kit.fontawesome.com/bc7123283f.js" crossorigin="anonymous"></script>
+  <title>single post</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav class="navbar">
+        <img src="../assets/logo.svg" class="nav-img" alt="">
+        <ul>
+          <a href="../index.html">
+            <li>Home</li>
+          </a>
+          <a href="../blogpage/blog.html">
+            <li>Blog</li>
+          </a>
+
+          <a href="../pages/pages.html">
+            <li>Pages</li>
+          </a>
+          <a href="../contactpage/contact.html">
+            <li>Create Blog</li>
+          </a>
+        </ul>
+        <div class="switchbtn_container">
+          <div class="switchbtn"><img src="../assets/toggleicon.svg" alt=""></div>
+        </div>
+      </nav>
+    </header>
+    <!-- render single post -->
+    <main class="single_post_container">
+
+    </main>
+    <!-- end -->
+    <!-- update single post modal -->
+    <main class="update_single_modal">
+      <form class="message_box update_single_modal_form">
+        <button class="close_window"><i class="fa-solid fa-xmark"></i></button>
+        <input type="text" placeholder="enter img url" required class="bg_img">
+        <input type="text" placeholder="profile img" required class="prof_img">
+        <input type="text" placeholder="first name" required class="input_firstname">
+        <input type="text" placeholder="last name" required class="input_lastname">
+        <input type="text" placeholder="topic title" required class="input_title">
+        <textarea class="message_area input_description" cols="30" rows="10" placeholder="what is your topic about" required
+        ></textarea>
+        <button type="submit" class="update_single_btn">Submit</button>
+      </form>
+    </main>
+    <!-- end  -->
+
+    <!-- commenting section  -->
+    <section class="comment">
+      <ul class="comment_container">
+
+      </ul>
+
+      <input type="text" placeholder="Comment on the  post" class="comment_input">
+      <button type="submit" class="comment_btn">post</button>
+
+    </section>
+    <!-- end -->
+  </div>
+  <!--footer -->
+  <footer class="footer">
+    <div class="upper_footer">
+      <ul>
+        <li>
+          <h1>About</h1>
+          <p> Lorem ipsum dolor sit amet, <br>
+            consectetur adipiscing elit, <br> sed do
+            eiusmod tempor incididunt <br> ut labore et dolore
+            magna aliqua. <br> Ut enim ad minim veniam</p>
+        </li>
+        <li> <span>Email: </span>mail@gmail.com</li>
+        <li><span>Phone: </span>123445667778</li>
+      </ul>
+      <ul>
+        <li>
+          <h1>Quick Link</h1>
+        </li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <ul>
+        <li>
+          <h1>Category</h1>
+        </li>
+        <li>Technology</li>
+        <li>Travel</li>
+        <li>Business</li>
+        <li>Economy</li>
+      </ul>
+    </div>
+    <div class="below_footer">
+      <div>
+        <div class="below_footer_logo">
+          <img src="../assets/footerlogo.svg" alt="footer logo">
+          <div>
+            <p>Meta <span>Blog</span></p>
+            <p>© JS Template 2023. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+      <ul class="below_footer_ul">
+        <li>Terms of Use</li>
+        <li>Privacy Policy</li>
+        <li>Cookie Policy</li>
+      </ul>
+    </div>
+  </footer>
+  <!-- end of footer -->
+  <script src="./singlepost.js" type="module"></script>
+</body>
+
+</html>
