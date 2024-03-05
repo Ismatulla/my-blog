@@ -1,1 +1,1 @@
-export const baseUrl = 'https://json-server-in.vercel.app'
+export const baseUrl = 'https://my-json-server.typicode.com/typicode/demo'
