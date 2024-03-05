@@ -1,1 +1,1 @@
-export const baseUrl = 'localhost:3000/'
+export const baseUrl = 'https://json-server-in.vercel.app'

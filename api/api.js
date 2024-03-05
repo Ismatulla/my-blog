@@ -47,8 +47,8 @@ const api = {
   getProfile: async () => {
 
     const response = await fetch(`${baseUrl}/profile`)
-    const data = response.json()
-    console.log(data)
+    const data = await response.json()
+  
     return data
 
   },
