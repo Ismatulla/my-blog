@@ -1,1 +1,1 @@
-export const baseUrl = 'https://my-blog-jade-beta.vercel.app'
+export const baseUrl = 'localhost:3000/'
